@@ -66,7 +66,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-800">Tony</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                At 26, I'm passionate about technology and always learning new skills in IT. 
+                At 30, I'm passionate about technology and always learning new skills in IT. 
                 Like many young Kenyan men, I'm hustling to build a better future for my family. 
                 I bring innovation, determination, and yes... endless dad jokes to our home.
               </p>
@@ -89,7 +89,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-800">Maggie</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                At 25, I'm a dedicated teacher who believes in shaping young minds. 
+                At 26, I'm a dedicated teacher who believes in shaping young minds. 
                 Teaching in Kenya comes with its challenges, but I'm passionate about making a difference. 
                 I'm the heart of our family, bringing wisdom, warmth, and endless love to everything we do.
               </p>
@@ -114,7 +114,8 @@ const Home = () => {
               <p className="text-gray-600 leading-relaxed mb-4">
                 Our little bundle of joy and chaos! Born in November 2021, 
                 he's now 3 years old and the sunshine that lights up our world. 
-                Every day with Miles is an adventure filled with laughter, learning, and lots of energy.
+                Every day with Miles is an adventure filled with laughter, learning, and lots of energy. 
+                He's already showing signs of being a little genius who wants to follow in daddy's footsteps!
               </p>
               <div className="text-sm text-purple-600 font-medium">
                 Our Joy & Beautiful Chaos
@@ -135,7 +136,7 @@ const Home = () => {
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 We represent thousands of young Kenyan couples in our mid-twenties, navigating the complexities of modern life. 
                 With the current economic challenges, rising costs of living, and limited opportunities, we're part of a generation 
-                that's redefining what it means to build a family in Kenya today.
+                that's redefining what it means to build a family in Kenya today. Tony is 30 and Maggie is 26, and we met in March 2020.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-2xl">
@@ -199,6 +200,15 @@ const Home = () => {
               <Sparkles className="w-12 h-12 text-emerald-500 mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-bold mb-2 text-gray-800">About Us</h3>
               <p className="text-gray-600 text-sm">Get to know us better</p>
+            </Link>
+            
+            <Link
+              to="/friends"
+              className="group p-6 bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            >
+              <Heart className="w-12 h-12 text-pink-500 mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="text-xl font-bold mb-2 text-gray-800">Friends</h3>
+              <p className="text-gray-600 text-sm">Carol and our special places</p>
             </Link>
           </div>
         </div>

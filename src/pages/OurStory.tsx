@@ -242,8 +242,10 @@ const OurStory = () => {
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
               We are a young couple navigating the beautiful and challenging journey of parenthood and life together.
             </p>
-            <p>Tony is 30 years old and Maggie is 26 years old.</p>
-            <p>We met in 2020.</p>
+            <div className="bg-gradient-to-br from-orange-50 to-rose-50 p-6 rounded-2xl">
+              <p className="text-gray-700 mb-2">Tony is 30 years old and Maggie is 26 years old.</p>
+              <p className="text-gray-700">We met in March 2020 through our amazing friend Carol, who saw something special and decided to introduce us.</p>
+            </div>
           </div>
         </div>
       </section>
