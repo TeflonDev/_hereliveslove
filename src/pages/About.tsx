@@ -11,14 +11,14 @@ const About = () => {
 
   const tonyFacts = [
     { icon: <Briefcase className="w-5 h-5" />, label: 'Profession', value: 'IT Enthusiast & Developer' },
-    { icon: <Calendar className="w-5 h-5" />, label: 'Age', value: '26 years old' },
+    { icon: <Calendar className="w-5 h-5" />, label: 'Age', value: '30 years old' },
     { icon: <Gamepad2 className="w-5 h-5" />, label: 'Hobbies', value: 'Gaming, Coding, Tech Reviews' },
     { icon: <Coffee className="w-5 h-5" />, label: 'Fuel', value: 'Coffee and Dad Jokes' },
   ];
 
   const maggieFacts = [
     { icon: <GraduationCap className="w-5 h-5" />, label: 'Profession', value: 'Primary School Teacher' },
-    { icon: <Calendar className="w-5 h-5" />, label: 'Age', value: '25 years old' },
+    { icon: <Calendar className="w-5 h-5" />, label: 'Age', value: '26 years old' },
     { icon: <Book className="w-5 h-5" />, label: 'Hobbies', value: 'Reading, Teaching, Crafts' },
     { icon: <Heart className="w-5 h-5" />, label: 'Passion', value: 'Shaping Young Minds' },
   ];
@@ -31,7 +31,7 @@ const About = () => {
   ];
 
   const relationshipMilestones = [
-    { year: '2019', event: 'Tony and Maggie met and fell in love' },
+    { year: '2020', event: 'Tony and Maggie met in March through Carol and fell in love' },
     { year: '2020', event: 'Survived COVID together, started planning future' },
     { year: '2021', event: 'Got married and welcomed Miles in November' },
     { year: '2022', event: 'First year of parenthood - challenging but beautiful' },
@@ -41,13 +41,14 @@ const About = () => {
   ];
 
   const funFacts = [
-    'Tony proposed to Maggie during a sunset at Uhuru Park',
+    'Our first "date" was eating blackforest cake at Society Stores Thika',
+    'Carol was the amazing friend who introduced us in March 2020',
     'Miles said "Dada" (sister in Swahili) before "Mama" or "Papa"',
-    'Our first date was at a local nyama choma joint',
+    'Miles is already showing signs of being a tech genius like his dad',
     'Maggie is the better cook, but Tony makes the best tea',
     'Miles has visited 5 Kenyan counties already',
     'We have a tradition of Sunday family walks',
-    'Tony still gets nervous when Maggie drives',
+    'We love visiting Bluepost Hotel and Spoonzoom for special occasions',
     'Our favorite family meal is ugali, sukuma wiki, and chicken'
   ];
 
