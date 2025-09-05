@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserHeart, Heart, MapPin, Calendar, Smile, Coffee, Gift, Users, Star } from 'lucide-react';
+import { FolderHeart as UserHeart, Heart, MapPin, Calendar, Smile, Coffee, Gift, Users, Star } from 'lucide-react';
 
 const Friends = () => {
   const placesVisited = [
