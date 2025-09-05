@@ -17,7 +17,7 @@ const About = () => {
   ];
 
   const maggieFacts = [
-    { icon: <GraduationCap className="w-5 h-5" />, label: 'Profession', value: 'Primary School Teacher' },
+    { icon: <GraduationCap className="w-5 h-5" />, label: 'Profession', value: 'Junior Secondary School Teacher' },
     { icon: <Calendar className="w-5 h-5" />, label: 'Age', value: '26 years old' },
     { icon: <Book className="w-5 h-5" />, label: 'Hobbies', value: 'Reading, Teaching, Crafts' },
     { icon: <Heart className="w-5 h-5" />, label: 'Passion', value: 'Shaping Young Minds' },
@@ -49,7 +49,7 @@ const About = () => {
     'Miles has visited 5 Kenyan counties already',
     'We have a tradition of Sunday family walks',
     'We love visiting Bluepost Hotel and Spoonzoom for special occasions',
-    'Our favorite family meal is ugali, sukuma wiki, and chicken'
+    'Our favorite family meal is Pilau, Chapati, and chicken'
   ];
 
   const challenges = [
@@ -115,7 +115,7 @@ const About = () => {
                     Tony Teflon
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-6">
-                    I'm a 26-year-old tech enthusiast who believes in the power of technology to transform lives. 
+                    I'm a 30-year-old tech enthusiast who believes in the power of technology to transform lives. 
                     Growing up in Kenya, I've seen how innovation can create opportunities, and I'm passionate about 
                     being part of that change. When I'm not coding or learning new technologies, I'm probably 
                     making dad jokes that make Maggie roll her eyes and Miles giggle.
