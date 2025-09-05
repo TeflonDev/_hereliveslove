@@ -309,43 +309,123 @@ const Friends = () => {
       </section>
 
       {/* Miles - The Genius Kid */}
+
+      {/* Small Gifts Section */}
+      <section className="py-20 bg-gradient-to-r from-rose-100 to-orange-100">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <Gift className="w-12 h-12 mx-auto mb-6 text-rose-500" />
+            <h2 className="text-3xl font-bold mb-8 text-gray-800">Love in Little Packages</h2>
+            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              We believe that love is best expressed through thoughtful gestures, no matter how small. 
+              These little surprises keep the romance alive and show Miles how much we care for each other.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">For Maggie ❤️</h3>
+                <ul className="space-y-2 text-left">
+                  <li className="flex items-center text-gray-600">
+                    <Heart className="w-4 h-4 text-pink-500 mr-2" />
+                    <span>Surprise chocolates on random days</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Heart className="w-4 h-4 text-pink-500 mr-2" />
+                    <span>Beautiful clothes that catch Tony's eye</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Heart className="w-4 h-4 text-pink-500 mr-2" />
+                    <span>Nice wines for special evenings</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Heart className="w-4 h-4 text-pink-500 mr-2" />
+                    <span>Stylish shoes to complete her outfits</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">For Miles 🎁</h3>
+                <ul className="space-y-2 text-left">
+                  <li className="flex items-center text-gray-600">
+                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
+                    <span>Educational toys that spark curiosity</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
+                    <span>Sweet treats whenever he's been good</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
+                    <span>Fun gadgets and building blocks</span>
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
+                    <span>Books and learning materials</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
+              <p className="text-gray-600 italic">
+                "These thoughtful gestures aren't about the money spent, but about showing we think of each other 
+                throughout the day. Miles is learning that love is expressed through caring actions."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Miles - Balanced Traits */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8 text-gray-800">Miles - Our Little Genius</h2>
+            <h2 className="text-4xl font-bold mb-8 text-gray-800">Miles - The Best of Both Worlds</h2>
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-3xl shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
                     src="https://images.pexels.com/photos/1257110/pexels-photo-1257110.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Miles - our genius little boy"
+                    alt="Miles - our brilliant little boy"
                     className="w-full h-64 object-cover rounded-2xl shadow-lg"
                   />
                 </div>
                 <div className="text-left">
-                  <h3 className="text-2xl font-bold mb-4 text-gray-800">Following in Daddy's Footsteps</h3>
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    At just 3 years old, Miles is already showing signs of being a little genius! 
-                    He's fascinated by technology and seems to want to follow in his father's footsteps.
+                  <h3 className="text-2xl font-bold mb-4 text-gray-800">A Perfect Blend</h3>
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    Miles is truly the best of both his parents. He's inherited Tony's curiosity about how things work 
+                    and Maggie's natural ability to connect with people and express himself clearly.
                   </p>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li className="flex items-start">
-                      <Star className="w-4 h-4 text-yellow-500 mr-2 mt-0.5" />
-                      <span>Loves playing with Tony's keyboard and "coding"</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Star className="w-4 h-4 text-yellow-500 mr-2 mt-0.5" />
-                      <span>Asks "How does this work?" about everything</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Star className="w-4 h-4 text-yellow-500 mr-2 mt-0.5" />
-                      <span>Can already navigate simple apps on the phone</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Star className="w-4 h-4 text-yellow-500 mr-2 mt-0.5" />
-                      <span>Shows incredible problem-solving skills for his age</span>
-                    </li>
-                  </ul>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div className="bg-blue-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-blue-800 mb-2">From Daddy 👨‍💻</h4>
+                      <ul className="space-y-1 text-sm text-blue-700">
+                        <li>• Problem-solving mindset</li>
+                        <li>• Love for technology</li>
+                        <li>• Analytical thinking</li>
+                        <li>• Determination</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-pink-50 p-4 rounded-lg">
+                      <h4 className="font-semibold text-pink-800 mb-2">From Mommy 👩‍🏫</h4>
+                      <ul className="space-y-1 text-sm text-pink-700">
+                        <li>• Excellent communication</li>
+                        <li>• Empathy and kindness</li>
+                        <li>• Love for learning</li>
+                        <li>• Social intelligence</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-blue-50 to-pink-50 p-4 rounded-lg">
+                    <p className="text-sm text-gray-600 italic">
+                      "Miles can explain complex ideas in simple terms (like Maggie) and loves figuring out 
+                      how gadgets work (like Tony). He's going to be unstoppable!"
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -353,25 +433,50 @@ const Friends = () => {
         </div>
       </section>
 
-      {/* Small Gifts Section */}
-      <section className="py-20 bg-gradient-to-r from-rose-100 to-orange-100">
+      {/* Role Models */}
+      <section className="py-20 bg-gradient-to-r from-green-100 to-blue-100">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <Gift className="w-12 h-12 mx-auto mb-6 text-rose-500" />
-            <h2 className="text-3xl font-bold mb-8 text-gray-800">Small Small Funny Gifts</h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              It's not about the size or cost of the gift - it's about the thought and love behind it. 
-              We believe in celebrating each other with small, meaningful gestures that bring smiles to our faces.
-            </p>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
-              <p className="text-gray-600 italic">
-                "From surprise treats to handwritten notes, from small toys for Miles to favorite snacks - 
-                our love language includes these little tokens of affection that make ordinary days special."
+            <Users className="w-12 h-12 mx-auto mb-6 text-green-500" />
+            <h2 className="text-3xl font-bold mb-8 text-gray-800">Inspiring Our Families</h2>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8">
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                We're humbled to know that our parents and siblings see us as role models. Despite the challenges 
+                we face as a young family, our commitment to each other and our determination to build something 
+                beautiful together inspires those closest to us.
               </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl">
+                  <h3 className="font-bold text-gray-800 mb-3">What They See</h3>
+                  <ul className="text-sm text-gray-600 space-y-2 text-left">
+                    <li>• A young couple who supports each other through everything</li>
+                    <li>• Parents who prioritize their child's wellbeing</li>
+                    <li>• A family that finds joy despite financial challenges</li>
+                    <li>• Partners who communicate and grow together</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl">
+                  <h3 className="font-bold text-gray-800 mb-3">Our Impact</h3>
+                  <ul className="text-sm text-gray-600 space-y-2 text-left">
+                    <li>• Showing that love conquers financial struggles</li>
+                    <li>• Proving young parents can be responsible and caring</li>
+                    <li>• Demonstrating the power of teamwork in marriage</li>
+                    <li>• Inspiring others to chase their dreams together</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="mt-6 bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg">
+                <p className="text-sm text-gray-600 italic">
+                  "Being seen as role models motivates us to keep being the best versions of ourselves, 
+                  not just for Miles, but for everyone who believes in our love story."
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
     </div>
   );
 };
